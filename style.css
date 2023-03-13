@@ -1,0 +1,371 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  /* background-color: red; */
+  /* padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 20px; */
+}
+.inner__app-wrap {
+  padding: 0 60px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+}
+
+.firstPart {
+  /* flex: 1; */
+  width: 122.84px;
+  height: 19.72px;
+  color: #2f4097;
+  /* background: #2f4097; */
+}
+
+.secondPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  /* background-color: blue; */
+  flex: 0.5;
+  /* font-size: 1; */
+  /* color: blue; */
+}
+
+.list {
+  color: #2f4097;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contact {
+  font-weight: 400;
+  color: #2f4097;
+  border: 2px solid #2f4097;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.body {
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+}
+.hero__text__wrap {
+  width: 591px;
+}
+.hero__text {
+  color: #2f4097;
+  font-size: 70px;
+  font-family: "Lato";
+  font-weight: 700;
+  line-height: 122.4px;
+  margin: 100px 0;
+  margin-top: 25px;
+}
+
+.mainBodyMessageWrapper {
+  margin-bottom: 120px;
+}
+
+/* .form {
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 100px;
+} */
+
+.form input {
+  background-color: #ffffff;
+  border: 1px solid #e7e7e7;
+  padding: 17px;
+  margin-bottom: 25px;
+  width: 463px;
+  font-weight: 400;
+  font-size: 15px;
+  /* flex: 1; */
+}
+
+.form p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2f4097;
+  margin-bottom: 5px;
+}
+
+.req__service__form > div {
+  width: 45%;
+}
+.req__service__form > div > input {
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #e7e7e7;
+  padding: 17px;
+  margin-bottom: 25px;
+
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.req__service__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wide__form__input {
+  width: 100%;
+}
+.wide__form__input > input {
+  width: 100%;
+  height: 150px;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  padding-bottom: 0px;
+}
+
+.icon__wrap {
+  display: none;
+}
+form button {
+  background-color: #2f4097;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  /* height: 45px; */
+  margin-top: 40px;
+  border-width: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer {
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  /* padding-top: 100px; */
+  background-color: #2f4097;
+  /* width: 1200px;
+  height: 100px; */
+  color: white;
+}
+
+.main_footer {
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding-bottom: 150px;
+  justify-content: space-around;
+}
+
+.footer h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer .first {
+  /* background-color: red; */
+  margin: 30px;
+  width: 300px;
+}
+
+.footer .second {
+  /* background-color: red; */
+  margin: 30px;
+  width: 300px;
+}
+
+.footer .third {
+  /* background-color: red; */
+  margin: 30px;
+  width: 300px;
+}
+
+.footer .fourth {
+  /* background-color: red; */
+  /* width: 338px;
+  height: 250px; */
+  margin-top: 28px;
+  background: rgba(255, 255, 255, 0.1);
+  mix-blend-mode: normal;
+  padding: 20px;
+}
+
+.footer .fourth > .second {
+  margin-top: 20px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.borderline {
+  height: 1px;
+  width: 1107px;
+  border-radius: 0px;
+  background-color: #efefef;
+  width: 100%;
+}
+
+.secondToThelastFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  /* background-color: red; */
+}
+
+.secondToThelastFooter > .secondpart {
+  flex: 0.3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondToThelastFooter > .thirdpart {
+  flex: 0.1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secondToThelastFooter > .thirdpart > p {
+  /* height: 35px;
+  width: 35px; */
+  border: 1.5px solid rgba(229, 231, 235, 1);
+  padding: 12px;
+  border-radius: 30px;
+  margin-right: 5px;
+  /* align-self: center; */
+
+  /* width: 35px;
+border-radius: 0px; */
+}
+
+.secondToThelastFooter > .img {
+  height: 25.697940826416016px;
+  width: 114.4127426147461px;
+  border-radius: 0px;
+  color: white;
+  /* background-color: white; */
+  background: white;
+}
+
+.lastfooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.lastfooter > p > .span1 {
+  color: rgba(103, 103, 103, 1);
+}
+
+.lastfooter > p > .span2 {
+  color: rgba(47, 64, 151, 1);
+}
+
+@media (max-width: 1270px) {
+  .inner__app-wrap {
+    padding: 0 10px;
+  }
+
+  @media (max-width: 700px) {
+    .body {
+      padding: 10px;
+    }
+    .hero__text__wrap {
+      width: 100%;
+      margin: 25px 0;
+    }
+    .hero__text {
+      font-size: 55px;
+      line-height: 70px;
+      margin: 10px 0;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .req__service__form {
+      flex-direction: column;
+    }
+    .req__service__form > div {
+      width: 100%;
+    }
+  }
+  .secondToThelastFooter {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 900px) {
+  .main_footer {
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    /* justify-content: space-between; */
+  }
+  .icon__wrap {
+    display: block;
+    cursor: pointer;
+    z-index: 200000;
+  }
+  .header{
+    /* display: block; */
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+  .secondPart {
+    background-color: #2f4097;
+    /* background-image: linear-gradient(to right, blue green); */
+    color: #ffffff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* z-index: -1; */
+    height:500px;
+    /* top:90px; */
+    display: none;
+    /* justify-self: end; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .secondPart > p {
+    margin: 10px 0;
+    color: #fff;
+    z-index: 20;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+/* todo when the user clicks the icon it shouls */
